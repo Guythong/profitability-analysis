@@ -6,7 +6,7 @@ This project analyzes profitability in the Sample Superstore dataset. The notebo
 
 - `notebooks/profitability_analysis.ipynb` - original Colab notebook.
 - `src/profitability_analysis.py` - repeatable Python analysis script.
-- `data/` - place the Superstore workbook here before running the project.
+- `data/` - contains the Superstore workbook used by the analysis.
 - `reports/` - generated charts and summary tables after running the script.
 
 ## Business Questions
@@ -28,16 +28,10 @@ This project analyzes profitability in the Sample Superstore dataset. The notebo
 
 ## Dataset
 
-The notebook expects a file named:
+The analysis uses:
 
 ```text
 Sample - Superstore.xls
-```
-
-Place it here:
-
-```text
-data/Sample - Superstore.xls
 ```
 
 The required columns include `Order Date`, `Region`, `Category`, `Sub-Category`, `Sales`, `Quantity`, `Discount`, `Profit`, and `Order ID`.
